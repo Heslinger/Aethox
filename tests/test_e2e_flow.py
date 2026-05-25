@@ -7,10 +7,8 @@ import pytest
 
 from redhills_engine.config import get_settings
 from redhills_engine.core.agent_loop import (
-    AdversarialAgentLoop,
     PayloadGenerator,
 )
-from redhills_engine.core.discovery import DiscoveryReport, EndpointFingerprint
 from redhills_engine.database.connection import get_db_session, init_db, shutdown_db
 from redhills_engine.database.models import (
     Scan,
